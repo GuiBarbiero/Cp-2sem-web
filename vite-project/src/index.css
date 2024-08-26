@@ -1,0 +1,104 @@
+/* Estilo geral */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container principal da página */
+.home-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilo da navegação */
+.home-nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.nav-link {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #007bff;
+  font-size: 1.2rem;
+}
+
+.nav-link:hover {
+  color: #0056b3;
+}
+
+/* Estilo do cabeçalho */
+.home-header {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.home-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.home-header p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.home-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.home-button:hover {
+  background-color: #0056b3;
+}
+
+.home-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+/* Estilo dos serviços */
+.home-services {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.home-service-card {
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  width: 22%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.home-service-card h2 {
+  font-size: 2rem;
+  color: #007bff;
+}
+
+.home-service-card h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.home-service-card p {
+  font-size: 1rem;
+  color: #666;
+}
