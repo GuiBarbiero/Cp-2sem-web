@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 
+
 const App = () => {
     return (
         <div className="home-container">
@@ -16,8 +17,8 @@ const App = () => {
             <button>Baixe o app</button>
           </div>
           <div className="images">
-            <img src="path/to/your/image1.png" alt="App Screenshot 1" />
-            <img src="path/to/your/image2.png" alt="App Screenshot 2" />
+            <img src="src/assets/celular01cp.png" alt="App Screenshot 1" />
+            <img src="src/assets/celular02cp.png" alt="App Screenshot 2" />
           </div>
         </section>
   
