@@ -1,6 +1,11 @@
 /* Estilo geral */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+* {
+ font-family: "Roboto Mono", monospace; 
+}
+
 body {
-  font-family: Arial, sans-serif;
+  
   line-height: 1.6;
   margin: 0;
   padding: 0;
@@ -33,40 +38,57 @@ body {
 
 /* Estilo do cabeçalho */
 .home-header {
-  text-align: center;
+  display: inline-block;
+  text-align: left;
   padding: 50px 20px;
+  align-items: left;
+  max-width: 600px;
 }
 
 .home-header h1 {
-  font-size: 2.5rem;
+  font-size: 60px;
   margin-bottom: 20px;
+
 }
 
-.home-header p {
-  font-size: 1.2rem;
-  color: #555;
+.p1 {
+  font-size: 24px;
+  color: #333333;
   margin-bottom: 30px;
+  width: 497px;
+  height: 96px;
+  font-weight: 400;
+
+  
 }
 
 .home-button {
-  background-color: #007bff;
+  background-color: #222c36;
   color: white;
-  padding: 10px 20px;
+  padding: 20px 56px 24px 56px;
   border: none;
-  border-radius: 5px;
+  border-radius: 40px;
   font-size: 1rem;
   cursor: pointer;
+  width: 297px;
+  height: 66px;
+  gap: 10px;
+  align-items: center;
 }
 
 .home-button:hover {
-  background-color: #0056b3;
+  background-color: #141a20;
 }
 
 .home-image {
-  max-width: 100%;
-  height: auto;
-  margin-top: 20px;
-  border-radius: 10px;
+  width: 627px;
+  height: 410px;
+  margin-top: 12px;
+  margin-left: 12px;
+  border-radius: 2px;
+  position: absolute;
+  top: 80px;
+  right:380px;
 }
 
 /* Estilo dos serviços */
@@ -85,11 +107,44 @@ body {
   width: 22%;
   text-align: center;
   margin-bottom: 20px;
+  margin-top: 130px;
+  .img {
+    position: absolute;
+    top: 730px;
+    left: 580px;
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+  }
+  .img2 {
+    position: absolute;
+    top: 730px;
+    left: 880px;
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+  }
+  .img3 {
+    position: absolute;
+    top: 730px;
+    left: 1180px;
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+  }
+  .img4 {
+    position: absolute;
+    top: 730px;
+    left: 1460px;
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+  }
 }
 
 .home-service-card h2 {
   font-size: 2rem;
-  color: #007bff;
+  color: #ffffff;
 }
 
 .home-service-card h3 {
@@ -101,4 +156,17 @@ body {
 .home-service-card p {
   font-size: 1rem;
   color: #666;
+}
+
+#hs1 {
+  background-color: #F1C2B0;
+}
+#hs2 {
+  background-color: #F9EB98;
+}
+#hs3 {
+  background-color: #C0D9DD;
+}
+#hs4 {
+  background-color: #6975E8;
 }
