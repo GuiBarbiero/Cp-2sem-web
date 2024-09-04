@@ -13,6 +13,7 @@ function ContactPage() {
               <h1 className="heading">Dúvidas e suporte, entre em contato:</h1>
               <div className="icon-container">
                 <a href="#" className="icon-link">
+                  <img src="../Cp-2sem-web/projeto-webdev/src/assets/twitterlogo.png"></img>
                   <i className="fab fa-twitter icon"></i>
                 </a>
                 <a href="#" className="icon-link">
@@ -23,17 +24,18 @@ function ContactPage() {
                 </a>
               </div>
             </div>
+            <spam className="barra"></spam>
             <div className="form-section">
               <form className="form">
                 <div className="form-group">
                   <label className="label">Nome:</label>
-                  <input type="text" className="input" />
+                  <input type="text" className="input2" />
                 </div>
                 <div className="form-group">
                   <label className="label">E-mail:</label>
-                  <input type="email" className="input" />
+                  <input type="email" className="input3" />
                 </div>
-                <div className="form-group">
+                <div className="form-msg">
                   <label className="label">Mensagem:</label>
                   <textarea className="textarea"></textarea>
                 </div>
